@@ -14,7 +14,7 @@ session_token = 'eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..bUUxvmgtqRutQyLg.fxZXC
 
 session_api = pyChatGPT.ChatGPT(session_token=session_token)
 
-token = 'MTAwNzU2OTQxMDc0NTE3MjAxOQ.GWRHBH.bfjmYTDIo5loWrkNXkGtXFxxMhR0IjD4dePRps'
+token = 'token'
 
 dbl_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDc1Njk0MTA3NDUxNzIwMTkiLCJib3QiOnRydWUsImlhdCI6MTY3NTU0MDk5MX0.69k1q7D2BSlUuUiHR_wxnWI8xZBllho-5dVgALInBX4"  # set this to your bot's Top.gg token
 bot.topggpy = topgg.DBLClient(bot, dbl_token, autopost=True, post_shard_count=True)
